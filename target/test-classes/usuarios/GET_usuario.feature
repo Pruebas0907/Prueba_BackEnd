@@ -17,7 +17,7 @@ Feature: Listar usuarios
       email: '#string',
       password: '#string',
       administrador: '#string',
-      _id: '#string'
+      _id: '#bool'
     }
     """
     And match each response.usuarios == usuarioSchema

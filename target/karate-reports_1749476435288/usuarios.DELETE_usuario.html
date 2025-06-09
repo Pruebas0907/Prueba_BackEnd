@@ -1,0 +1,3484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"bb8fe01f-1ea2-4b3b-a141-d5025211efee",karate_version:"1.4.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>usuarios.DELETE_usuario</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">3</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2025-06-09 08:38:18 a. m.</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1.1:18]"><span>[1.1:18]</span> <span>Eliminar usuario</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[1.2:19]"><span>[1.2:19]</span> <span>Eliminar usuario</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:21]"><span>[2:21]</span> <span>Eliminar usuario no permitido</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">usuarios/DELETE_usuario.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Eliminar usuario</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:18]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:18]</span>
+                <span class="scenario-name">Eliminar usuario</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>5066</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.1:18]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def resultado = call read(&#39;classpath:usuarios/POST_usuario.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4510</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="1.4.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">usuarios.POST_usuario</div>
+      </div>
+      <div class="time-cell passed">4431</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://serverest.dev&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def uuid = java.util.UUID.randomUUID().toString()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">172</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def emailUnico = &#39;fulano&#39; + uuid + &#39;@teste.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">10</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def usuarioValido =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">17</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="1.4.0.call.0.7">{
+  &quot;nome&quot;: &quot;Fulano da Silva&quot;,
+  &quot;email&quot;: &quot;#(emailUnico)&quot;,
+  &quot;password&quot;: &quot;teste123&quot;,
+  &quot;administrador&quot;: &quot;true&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell comment">#Primer registro</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.18">
+      <div class="step-ref bg-step">18</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.19">
+      <div class="step-ref bg-step">19</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request usuarioValido</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.20">
+      <div class="step-ref bg-step">20</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1415</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.4.0.call.0.20">08:38:10.019 request:
+1 &gt; POST https://serverest.dev/usuarios
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 134
+1 &gt; Host: serverest.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulano2e811653-8327-462b-bbad-fd1f0c735e46@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
+
+08:38:11.045 response time in milliseconds: 1023
+1 &lt; 201
+1 &lt; access-control-allow-origin: *
+1 &lt; x-dns-prefetch-control: off
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; strict-transport-security: max-age=15552000; includeSubDomains
+1 &lt; x-download-options: noopen
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; x-cloud-trace-context: b7cb83c2fb12c4b3e5384e11121467d4;o=1
+1 &lt; date: Mon, 09 Jun 2025 13:38:11 GMT
+1 &lt; server: Google Frontend
+1 &lt; Content-Length: 82
+{
+    &quot;message&quot;: &quot;Cadastro realizado com sucesso&quot;,
+    &quot;_id&quot;: &quot;xZaiFx6oemHpJtzV&quot;
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.21">
+      <div class="step-ref bg-step">21</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.22">
+      <div class="step-ref bg-step">22</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == { message: &#39;Cadastro realizado com sucesso&#39;, _id: &#39;#string&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">19</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell comment"># Intentar registrarlo de nuevo</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.25">
+      <div class="step-ref bg-step">25</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.26">
+      <div class="step-ref bg-step">26</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request usuarioValido</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.27">
+      <div class="step-ref bg-step">27</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1373</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.4.0.call.0.27">08:38:11.068 request:
+2 &gt; POST https://serverest.dev/usuarios
+2 &gt; Content-Type: application/json; charset=UTF-8
+2 &gt; Content-Length: 134
+2 &gt; Host: serverest.dev
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
+2 &gt; Accept-Encoding: gzip,deflate
+{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulano2e811653-8327-462b-bbad-fd1f0c735e46@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
+
+08:38:12.437 response time in milliseconds: 1367
+2 &lt; 400
+2 &lt; access-control-allow-origin: *
+2 &lt; x-dns-prefetch-control: off
+2 &lt; x-frame-options: SAMEORIGIN
+2 &lt; strict-transport-security: max-age=15552000; includeSubDomains
+2 &lt; x-download-options: noopen
+2 &lt; x-content-type-options: nosniff
+2 &lt; x-xss-protection: 1; mode=block
+2 &lt; content-type: application/json; charset=utf-8
+2 &lt; x-cloud-trace-context: 5a55fc64260b75aad4a5e35721079839
+2 &lt; date: Mon, 09 Jun 2025 13:38:12 GMT
+2 &lt; server: Google Frontend
+2 &lt; Content-Length: 53
+{
+    &quot;message&quot;: &quot;Este email já está sendo usado&quot;
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.28">
+      <div class="step-ref bg-step">28</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.29">
+      <div class="step-ref bg-step">29</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == { message: &#39;Este email já está sendo usado&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://serverest.dev&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def uuid = java.util.UUID.randomUUID().toString()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def emailUnico = &#39;fulano&#39; + uuid + &#39;@teste.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def usuarioValido =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="1.4.0.call.0.7">{
+  &quot;nome&quot;: &quot;Fulano da Silva&quot;,
+  &quot;email&quot;: &quot;#(emailUnico)&quot;,
+  &quot;password&quot;: &quot;teste123&quot;,
+  &quot;administrador&quot;: &quot;true&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.33">
+      <div class="step-ref bg-step">33</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.34">
+      <div class="step-ref bg-step">34</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request usuarioValido</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.35">
+      <div class="step-ref bg-step">35</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1402</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.4.0.call.0.35">08:38:12.453 request:
+1 &gt; POST https://serverest.dev/usuarios
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 134
+1 &gt; Host: serverest.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulano290e5dd2-10a0-4085-a03f-15980c152998@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
+
+08:38:13.849 response time in milliseconds: 1395
+1 &lt; 201
+1 &lt; access-control-allow-origin: *
+1 &lt; x-dns-prefetch-control: off
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; strict-transport-security: max-age=15552000; includeSubDomains
+1 &lt; x-download-options: noopen
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; x-cloud-trace-context: c8414d50b54ade1881b218782822d327
+1 &lt; date: Mon, 09 Jun 2025 13:38:13 GMT
+1 &lt; server: Google Frontend
+1 &lt; Content-Length: 82
+{
+    &quot;message&quot;: &quot;Cadastro realizado com sucesso&quot;,
+    &quot;_id&quot;: &quot;PikoJmiKjelWr9FP&quot;
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.36">
+      <div class="step-ref bg-step">36</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.37">
+      <div class="step-ref bg-step">37</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == { message: &#39;Cadastro realizado com sucesso&#39;, _id: &#39;#string&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.38">
+      <div class="step-ref bg-step">38</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userId = response._id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.39">
+      <div class="step-ref bg-step">39</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>eval karate.log(&#39;ID creado: &#39; + userId)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.4.0.call.0.39">08:38:13.863 ID creado: PikoJmiKjelWr9FP 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.4.0.call">
+    <div class="step-container" id="1.4.0.call.0.40">
+      <div class="step-ref bg-step">40</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>eval function() { return { userId: userId } }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[1.1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userId = resultado.userId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://serverest.dev&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:18]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Este usuario puede variar en este caso es el usuario con el que figura el mensaje</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="1.8">
+      <div class="step-ref bg-step">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userId_Cart = &quot;0uxuPY0cbmQhpEz1&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;, userId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method DELETE</span>
+      </div>
+    </div>
+    <div class="time-cell passed">545</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.12">08:38:13.878 request:
+1 &gt; DELETE https://serverest.dev/usuarios/PikoJmiKjelWr9FP
+1 &gt; Host: serverest.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+08:38:14.421 response time in milliseconds: 541
+1 &lt; 200
+1 &lt; access-control-allow-origin: *
+1 &lt; x-dns-prefetch-control: off
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; strict-transport-security: max-age=15552000; includeSubDomains
+1 &lt; x-download-options: noopen
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; x-cloud-trace-context: 4931b4b980cfcaf73d7e379f87b9b26c
+1 &lt; date: Mon, 09 Jun 2025 13:38:14 GMT
+1 &lt; server: Google Frontend
+1 &lt; Content-Length: 51
+{
+    &quot;message&quot;: &quot;Registro excluído com sucesso&quot;
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == { message: &quot;Registro excluído com sucesso&quot; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.2:19]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.2:19]</span>
+                <span class="scenario-name">Eliminar usuario</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2054</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.2:19]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.2:19]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def resultado = call read(&#39;classpath:usuarios/POST_usuario.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1521</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="2.4.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">usuarios.POST_usuario</div>
+      </div>
+      <div class="time-cell passed">1505</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://serverest.dev&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def uuid = java.util.UUID.randomUUID().toString()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def emailUnico = &#39;fulano&#39; + uuid + &#39;@teste.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def usuarioValido =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="2.4.0.call.0.7">{
+  &quot;nome&quot;: &quot;Fulano da Silva&quot;,
+  &quot;email&quot;: &quot;#(emailUnico)&quot;,
+  &quot;password&quot;: &quot;teste123&quot;,
+  &quot;administrador&quot;: &quot;true&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell comment">#Primer registro</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.18">
+      <div class="step-ref bg-step">18</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.19">
+      <div class="step-ref bg-step">19</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request usuarioValido</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.20">
+      <div class="step-ref bg-step">20</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">542</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.4.0.call.0.20">08:38:14.448 request:
+1 &gt; POST https://serverest.dev/usuarios
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 134
+1 &gt; Host: serverest.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulano07d3fdc6-1b5f-45ae-9b34-18612d858640@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
+
+08:38:14.984 response time in milliseconds: 536
+1 &lt; 201
+1 &lt; access-control-allow-origin: *
+1 &lt; x-dns-prefetch-control: off
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; strict-transport-security: max-age=15552000; includeSubDomains
+1 &lt; x-download-options: noopen
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; x-cloud-trace-context: 51387f2c490844d8e7163ea63b0986d6
+1 &lt; date: Mon, 09 Jun 2025 13:38:15 GMT
+1 &lt; server: Google Frontend
+1 &lt; Content-Length: 82
+{
+    &quot;message&quot;: &quot;Cadastro realizado com sucesso&quot;,
+    &quot;_id&quot;: &quot;tblGfuuEqb9IJpwO&quot;
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.21">
+      <div class="step-ref bg-step">21</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.22">
+      <div class="step-ref bg-step">22</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == { message: &#39;Cadastro realizado com sucesso&#39;, _id: &#39;#string&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell comment"># Intentar registrarlo de nuevo</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.25">
+      <div class="step-ref bg-step">25</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.26">
+      <div class="step-ref bg-step">26</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request usuarioValido</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.27">
+      <div class="step-ref bg-step">27</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">511</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.4.0.call.0.27">08:38:15.001 request:
+2 &gt; POST https://serverest.dev/usuarios
+2 &gt; Content-Type: application/json; charset=UTF-8
+2 &gt; Content-Length: 134
+2 &gt; Host: serverest.dev
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
+2 &gt; Accept-Encoding: gzip,deflate
+{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulano07d3fdc6-1b5f-45ae-9b34-18612d858640@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
+
+08:38:15.502 response time in milliseconds: 501
+2 &lt; 400
+2 &lt; access-control-allow-origin: *
+2 &lt; x-dns-prefetch-control: off
+2 &lt; x-frame-options: SAMEORIGIN
+2 &lt; strict-transport-security: max-age=15552000; includeSubDomains
+2 &lt; x-download-options: noopen
+2 &lt; x-content-type-options: nosniff
+2 &lt; x-xss-protection: 1; mode=block
+2 &lt; content-type: application/json; charset=utf-8
+2 &lt; x-cloud-trace-context: cf8b35b3902fda0ff975099d98c2e0b5
+2 &lt; date: Mon, 09 Jun 2025 13:38:15 GMT
+2 &lt; server: Google Frontend
+2 &lt; Content-Length: 53
+{
+    &quot;message&quot;: &quot;Este email já está sendo usado&quot;
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.28">
+      <div class="step-ref bg-step">28</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.29">
+      <div class="step-ref bg-step">29</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == { message: &#39;Este email já está sendo usado&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://serverest.dev&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def uuid = java.util.UUID.randomUUID().toString()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def emailUnico = &#39;fulano&#39; + uuid + &#39;@teste.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def usuarioValido =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="2.4.0.call.0.7">{
+  &quot;nome&quot;: &quot;Fulano da Silva&quot;,
+  &quot;email&quot;: &quot;#(emailUnico)&quot;,
+  &quot;password&quot;: &quot;teste123&quot;,
+  &quot;administrador&quot;: &quot;true&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.33">
+      <div class="step-ref bg-step">33</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.34">
+      <div class="step-ref bg-step">34</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request usuarioValido</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.35">
+      <div class="step-ref bg-step">35</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">444</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.4.0.call.0.35">08:38:15.511 request:
+1 &gt; POST https://serverest.dev/usuarios
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 134
+1 &gt; Host: serverest.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulano30657eb0-26d2-4b3e-890c-299c2c62edc2@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
+
+08:38:15.954 response time in milliseconds: 442
+1 &lt; 201
+1 &lt; access-control-allow-origin: *
+1 &lt; x-dns-prefetch-control: off
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; strict-transport-security: max-age=15552000; includeSubDomains
+1 &lt; x-download-options: noopen
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; x-cloud-trace-context: 496292dd792f08e1327801994b55c9c0
+1 &lt; date: Mon, 09 Jun 2025 13:38:15 GMT
+1 &lt; server: Google Frontend
+1 &lt; Content-Length: 82
+{
+    &quot;message&quot;: &quot;Cadastro realizado com sucesso&quot;,
+    &quot;_id&quot;: &quot;G2AiB4hNGy24O1WG&quot;
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.36">
+      <div class="step-ref bg-step">36</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.37">
+      <div class="step-ref bg-step">37</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == { message: &#39;Cadastro realizado com sucesso&#39;, _id: &#39;#string&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.38">
+      <div class="step-ref bg-step">38</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userId = response._id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.39">
+      <div class="step-ref bg-step">39</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>eval karate.log(&#39;ID creado: &#39; + userId)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.4.0.call.0.39">08:38:15.957 ID creado: G2AiB4hNGy24O1WG 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.4.0.call">
+    <div class="step-container" id="2.4.0.call.0.40">
+      <div class="step-ref bg-step">40</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>eval function() { return { userId: userId } }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[1.2:19]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userId = resultado.userId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.2:19]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://serverest.dev&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.2:19]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Este usuario puede variar en este caso es el usuario con el que figura el mensaje</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="2.8">
+      <div class="step-ref bg-step">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userId_Cart = &quot;0uxuPY0cbmQhpEz1&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;, &quot;test&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method DELETE</span>
+      </div>
+    </div>
+    <div class="time-cell passed">530</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.12">08:38:15.961 request:
+1 &gt; DELETE https://serverest.dev/usuarios/test
+1 &gt; Host: serverest.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+08:38:16.488 response time in milliseconds: 526
+1 &lt; 200
+1 &lt; access-control-allow-origin: *
+1 &lt; x-dns-prefetch-control: off
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; strict-transport-security: max-age=15552000; includeSubDomains
+1 &lt; x-download-options: noopen
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; x-cloud-trace-context: c3a481e5e0d19b470b64aaf9d38e2840
+1 &lt; date: Mon, 09 Jun 2025 13:38:16 GMT
+1 &lt; server: Google Frontend
+1 &lt; Content-Length: 46
+{
+    &quot;message&quot;: &quot;Nenhum registro excluído&quot;
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == { message: &quot;Nenhum registro excluído&quot; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:21]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:21]</span>
+                <span class="scenario-name">Eliminar usuario no permitido</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2150</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:21]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:21]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def resultado = call read(&#39;classpath:usuarios/POST_usuario.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1633</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.4.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">usuarios.POST_usuario</div>
+      </div>
+      <div class="time-cell passed">1612</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://serverest.dev&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def uuid = java.util.UUID.randomUUID().toString()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def emailUnico = &#39;fulano&#39; + uuid + &#39;@teste.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def usuarioValido =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.4.0.call.0.7">{
+  &quot;nome&quot;: &quot;Fulano da Silva&quot;,
+  &quot;email&quot;: &quot;#(emailUnico)&quot;,
+  &quot;password&quot;: &quot;teste123&quot;,
+  &quot;administrador&quot;: &quot;true&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell comment">#Primer registro</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.18">
+      <div class="step-ref bg-step">18</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.19">
+      <div class="step-ref bg-step">19</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request usuarioValido</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.20">
+      <div class="step-ref bg-step">20</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">526</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4.0.call.0.20">08:38:16.522 request:
+1 &gt; POST https://serverest.dev/usuarios
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 134
+1 &gt; Host: serverest.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulanoed271cc3-0c36-4109-a429-0beb1329b19c@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
+
+08:38:17.043 response time in milliseconds: 521
+1 &lt; 201
+1 &lt; access-control-allow-origin: *
+1 &lt; x-dns-prefetch-control: off
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; strict-transport-security: max-age=15552000; includeSubDomains
+1 &lt; x-download-options: noopen
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; x-cloud-trace-context: 415a5b5718651f06dd03b211f76fc11e
+1 &lt; date: Mon, 09 Jun 2025 13:38:17 GMT
+1 &lt; server: Google Frontend
+1 &lt; Content-Length: 82
+{
+    &quot;message&quot;: &quot;Cadastro realizado com sucesso&quot;,
+    &quot;_id&quot;: &quot;IUArMxdBysSt60Th&quot;
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.21">
+      <div class="step-ref bg-step">21</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.22">
+      <div class="step-ref bg-step">22</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == { message: &#39;Cadastro realizado com sucesso&#39;, _id: &#39;#string&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell comment"># Intentar registrarlo de nuevo</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.25">
+      <div class="step-ref bg-step">25</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.26">
+      <div class="step-ref bg-step">26</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request usuarioValido</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.27">
+      <div class="step-ref bg-step">27</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">548</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4.0.call.0.27">08:38:17.050 request:
+2 &gt; POST https://serverest.dev/usuarios
+2 &gt; Content-Type: application/json; charset=UTF-8
+2 &gt; Content-Length: 134
+2 &gt; Host: serverest.dev
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
+2 &gt; Accept-Encoding: gzip,deflate
+{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulanoed271cc3-0c36-4109-a429-0beb1329b19c@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
+
+08:38:17.593 response time in milliseconds: 542
+2 &lt; 400
+2 &lt; access-control-allow-origin: *
+2 &lt; x-dns-prefetch-control: off
+2 &lt; x-frame-options: SAMEORIGIN
+2 &lt; strict-transport-security: max-age=15552000; includeSubDomains
+2 &lt; x-download-options: noopen
+2 &lt; x-content-type-options: nosniff
+2 &lt; x-xss-protection: 1; mode=block
+2 &lt; content-type: application/json; charset=utf-8
+2 &lt; x-cloud-trace-context: 9a32e7b3e4862c84d7cb663462f3298e
+2 &lt; date: Mon, 09 Jun 2025 13:38:17 GMT
+2 &lt; server: Google Frontend
+2 &lt; Content-Length: 53
+{
+    &quot;message&quot;: &quot;Este email já está sendo usado&quot;
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.28">
+      <div class="step-ref bg-step">28</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.29">
+      <div class="step-ref bg-step">29</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == { message: &#39;Este email já está sendo usado&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://serverest.dev&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def uuid = java.util.UUID.randomUUID().toString()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def emailUnico = &#39;fulano&#39; + uuid + &#39;@teste.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def usuarioValido =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.4.0.call.0.7">{
+  &quot;nome&quot;: &quot;Fulano da Silva&quot;,
+  &quot;email&quot;: &quot;#(emailUnico)&quot;,
+  &quot;password&quot;: &quot;teste123&quot;,
+  &quot;administrador&quot;: &quot;true&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.33">
+      <div class="step-ref bg-step">33</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.34">
+      <div class="step-ref bg-step">34</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request usuarioValido</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.35">
+      <div class="step-ref bg-step">35</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">524</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4.0.call.0.35">08:38:17.608 request:
+1 &gt; POST https://serverest.dev/usuarios
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 134
+1 &gt; Host: serverest.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulano96d3c9f2-bd31-49e7-9715-a6528282143a@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
+
+08:38:18.128 response time in milliseconds: 519
+1 &lt; 201
+1 &lt; access-control-allow-origin: *
+1 &lt; x-dns-prefetch-control: off
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; strict-transport-security: max-age=15552000; includeSubDomains
+1 &lt; x-download-options: noopen
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; x-cloud-trace-context: d984609c42810eefa41ba29e9071ff31
+1 &lt; date: Mon, 09 Jun 2025 13:38:18 GMT
+1 &lt; server: Google Frontend
+1 &lt; Content-Length: 82
+{
+    &quot;message&quot;: &quot;Cadastro realizado com sucesso&quot;,
+    &quot;_id&quot;: &quot;x2YpLDPeF99ogg9Q&quot;
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.36">
+      <div class="step-ref bg-step">36</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.37">
+      <div class="step-ref bg-step">37</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == { message: &#39;Cadastro realizado com sucesso&#39;, _id: &#39;#string&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.38">
+      <div class="step-ref bg-step">38</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userId = response._id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.39">
+      <div class="step-ref bg-step">39</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>eval karate.log(&#39;ID creado: &#39; + userId)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4.0.call.0.39">08:38:18.133 ID creado: x2YpLDPeF99ogg9Q 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.40">
+      <div class="step-ref bg-step">40</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>eval function() { return { userId: userId } }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[2:21]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userId = resultado.userId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:21]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://serverest.dev&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:21]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Este usuario puede variar en este caso es el usuario con el que figura el mensaje</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref bg-step">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userId_Cart = &quot;0uxuPY0cbmQhpEz1&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;, userId_Cart</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method DELETE</span>
+      </div>
+    </div>
+    <div class="time-cell passed">513</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.23">08:38:18.140 request:
+1 &gt; DELETE https://serverest.dev/usuarios/0uxuPY0cbmQhpEz1
+1 &gt; Host: serverest.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+08:38:18.650 response time in milliseconds: 509
+1 &lt; 400
+1 &lt; access-control-allow-origin: *
+1 &lt; x-dns-prefetch-control: off
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; strict-transport-security: max-age=15552000; includeSubDomains
+1 &lt; x-download-options: noopen
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; x-cloud-trace-context: 0d1a3ba760e85508489af42d39fad3d3
+1 &lt; date: Mon, 09 Jun 2025 13:38:18 GMT
+1 &lt; server: Google Frontend
+1 &lt; Content-Length: 117
+{
+    &quot;message&quot;: &quot;Não é permitido excluir usuário com carrinho cadastrado&quot;,
+    &quot;idCarrinho&quot;: &quot;qbMqntef4iTOwWfg&quot;
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == { message: &#39;Não é permitido excluir usuário com carrinho cadastrado&#39;, idCarrinho: &#39;#string&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

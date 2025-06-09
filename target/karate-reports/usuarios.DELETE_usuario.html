@@ -49,19 +49,19 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2025-06-09 04:06:48 a. m.</div>
+    <div>2025-06-09 08:40:46 a. m.</div>
   </div>
 </div>
 
         <div class="nav-container">
           <div class="nav-item passed">
-            <a href="#[1.1:18]"><span>[1.1:18]</span> <span>Eliminar usuario existente</span></a>
+            <a href="#[1.1:18]"><span>[1.1:18]</span> <span>Eliminar usuario</span></a>
           </div>
           <div class="nav-item passed">
-            <a href="#[1.2:19]"><span>[1.2:19]</span> <span>Eliminar usuario existente</span></a>
+            <a href="#[1.2:19]"><span>[1.2:19]</span> <span>Eliminar usuario</span></a>
           </div>
           <div class="nav-item passed">
-            <a href="#[2:21]"><span>[2:21]</span> <span>Eliminar usuario existente</span></a>
+            <a href="#[2:21]"><span>[2:21]</span> <span>Eliminar usuario no permitido</span></a>
           </div>
         </div>
       </div>
@@ -82,12 +82,12 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
               <div class="scenario-keyword">
                 Scenario: <span>[1.1:18]</span>
-                <span class="scenario-name">Eliminar usuario existente</span>
+                <span class="scenario-name">Eliminar usuario</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>4071</span>
+              <span>ms:</span>&nbsp;<span>2919</span>
             </div>
           </div>
           <div class="step-row">
@@ -110,7 +110,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def resultado = call read(&#39;classpath:usuarios/POST_usuario.feature&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">2762</div>
+    <div class="time-cell passed">2364</div>
   </div>
 
    
@@ -129,7 +129,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <div class="step-indent"></div>
         <div class="step-cell passed">usuarios.POST_usuario</div>
       </div>
-      <div class="time-cell passed">2724</div>
+      <div class="time-cell passed">2298</div>
     </div>
     <div>
       <div><div>
@@ -145,7 +145,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>url &#39;https://serverest.dev&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -173,7 +173,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def uuid = java.util.UUID.randomUUID().toString()</span>
       </div>
     </div>
-    <div class="time-cell passed">129</div>
+    <div class="time-cell passed">181</div>
   </div>
 
    
@@ -201,7 +201,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def emailUnico = &#39;fulano&#39; + uuid + &#39;@teste.com&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">7</div>
+    <div class="time-cell passed">10</div>
   </div>
 
    
@@ -229,7 +229,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def usuarioValido =</span>
       </div>
     </div>
-    <div class="time-cell passed">11</div>
+    <div class="time-cell passed">17</div>
   </div>
 
    
@@ -325,7 +325,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">790</div>
+    <div class="time-cell passed">1021</div>
   </div>
 
    
@@ -334,7 +334,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.4.0.call.0.20">04:06:39.915 request:
+  <div class="preformatted" data-parent="1.4.0.call.0.20">08:40:38.444 request:
 1 &gt; POST https://serverest.dev/usuarios
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 134
@@ -342,9 +342,9 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulanob3b25206-4060-40b3-a562-0ef798355f94@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
+{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulano7d9ab4fa-a1b2-42bc-b723-8a76d4f6b375@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
 
-04:06:40.535 response time in milliseconds: 618
+08:40:39.174 response time in milliseconds: 724
 1 &lt; 201
 1 &lt; access-control-allow-origin: *
 1 &lt; x-dns-prefetch-control: off
@@ -354,13 +354,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &lt; x-content-type-options: nosniff
 1 &lt; x-xss-protection: 1; mode=block
 1 &lt; content-type: application/json; charset=utf-8
-1 &lt; x-cloud-trace-context: 528e5966c417604b8fb946c33819320f;o=1
-1 &lt; date: Mon, 09 Jun 2025 09:06:39 GMT
+1 &lt; x-cloud-trace-context: 56aa812b21107fa1740ad6c61b1011ac;o=1
+1 &lt; date: Mon, 09 Jun 2025 13:40:39 GMT
 1 &lt; server: Google Frontend
 1 &lt; Content-Length: 82
 {
     &quot;message&quot;: &quot;Cadastro realizado com sucesso&quot;,
-    &quot;_id&quot;: &quot;NZwYqYb9IwZnjPUb&quot;
+    &quot;_id&quot;: &quot;3i4nRoxIU4RK0Uyv&quot;
 }
 
 </div>   
@@ -410,7 +410,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>match response == { message: &#39;Cadastro realizado com sucesso&#39;, _id: &#39;#string&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">14</div>
+    <div class="time-cell passed">23</div>
   </div>
 
    
@@ -473,7 +473,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>request usuarioValido</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -501,7 +501,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">421</div>
+    <div class="time-cell passed">448</div>
   </div>
 
    
@@ -510,7 +510,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.4.0.call.0.27">04:06:40.554 request:
+  <div class="preformatted" data-parent="1.4.0.call.0.27">08:40:39.204 request:
 2 &gt; POST https://serverest.dev/usuarios
 2 &gt; Content-Type: application/json; charset=UTF-8
 2 &gt; Content-Length: 134
@@ -518,9 +518,9 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 2 &gt; Connection: Keep-Alive
 2 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
 2 &gt; Accept-Encoding: gzip,deflate
-{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulanob3b25206-4060-40b3-a562-0ef798355f94@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
+{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulano7d9ab4fa-a1b2-42bc-b723-8a76d4f6b375@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
 
-04:06:40.973 response time in milliseconds: 414
+08:40:39.649 response time in milliseconds: 439
 2 &lt; 400
 2 &lt; access-control-allow-origin: *
 2 &lt; x-dns-prefetch-control: off
@@ -530,8 +530,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 2 &lt; x-content-type-options: nosniff
 2 &lt; x-xss-protection: 1; mode=block
 2 &lt; content-type: application/json; charset=utf-8
-2 &lt; x-cloud-trace-context: f85f9a3165a324878e4fe3e0411029a6
-2 &lt; date: Mon, 09 Jun 2025 09:06:40 GMT
+2 &lt; x-cloud-trace-context: cae21c306c669459a5c6751662bd810b
+2 &lt; date: Mon, 09 Jun 2025 13:40:39 GMT
 2 &lt; server: Google Frontend
 2 &lt; Content-Length: 53
 {
@@ -585,7 +585,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>match response == { message: &#39;Este email já está sendo usado&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -732,7 +732,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -788,7 +788,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">1330</div>
+    <div class="time-cell passed">558</div>
   </div>
 
    
@@ -797,7 +797,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.4.0.call.0.35">04:06:40.989 request:
+  <div class="preformatted" data-parent="1.4.0.call.0.35">08:40:39.669 request:
 1 &gt; POST https://serverest.dev/usuarios
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 134
@@ -805,9 +805,9 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulanocb7c0299-9b3a-478d-9da8-fe062fb9ec28@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
+{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulano8aa52ec2-3223-42f6-8fa7-3cdbb1495565@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
 
-04:06:42.314 response time in milliseconds: 1324
+08:40:40.226 response time in milliseconds: 556
 1 &lt; 201
 1 &lt; access-control-allow-origin: *
 1 &lt; x-dns-prefetch-control: off
@@ -817,13 +817,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &lt; x-content-type-options: nosniff
 1 &lt; x-xss-protection: 1; mode=block
 1 &lt; content-type: application/json; charset=utf-8
-1 &lt; x-cloud-trace-context: 8f4e3e93461f0d9d3003f35130e2068e
-1 &lt; date: Mon, 09 Jun 2025 09:06:41 GMT
+1 &lt; x-cloud-trace-context: 5da08da38e35014603c8826ed7c20927
+1 &lt; date: Mon, 09 Jun 2025 13:40:40 GMT
 1 &lt; server: Google Frontend
 1 &lt; Content-Length: 82
 {
     &quot;message&quot;: &quot;Cadastro realizado com sucesso&quot;,
-    &quot;_id&quot;: &quot;GRJiBWYQskWwguWC&quot;
+    &quot;_id&quot;: &quot;F1fwOYKDNm09iB9N&quot;
 }
 
 </div>   
@@ -873,7 +873,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>match response == { message: &#39;Cadastro realizado com sucesso&#39;, _id: &#39;#string&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -929,7 +929,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>eval karate.log(&#39;ID creado: &#39; + userId)</span>
       </div>
     </div>
-    <div class="time-cell passed">7</div>
+    <div class="time-cell passed">23</div>
   </div>
 
    
@@ -938,7 +938,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.4.0.call.0.39">04:06:42.327 ID creado: GRJiBWYQskWwguWC 
+  <div class="preformatted" data-parent="1.4.0.call.0.39">08:40:40.251 ID creado: F1fwOYKDNm09iB9N 
 </div>   
 
   
@@ -1082,7 +1082,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;, userId</span>
       </div>
     </div>
-    <div class="time-cell passed">8</div>
+    <div class="time-cell passed">13</div>
   </div>
 
    
@@ -1110,7 +1110,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method DELETE</span>
       </div>
     </div>
-    <div class="time-cell passed">1300</div>
+    <div class="time-cell passed">539</div>
   </div>
 
    
@@ -1119,15 +1119,15 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.12">04:06:42.340 request:
-1 &gt; DELETE https://serverest.dev/usuarios/GRJiBWYQskWwguWC
+  <div class="preformatted" data-parent="1.12">08:40:40.275 request:
+1 &gt; DELETE https://serverest.dev/usuarios/F1fwOYKDNm09iB9N
 1 &gt; Host: serverest.dev
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-04:06:43.638 response time in milliseconds: 1297
+08:40:40.810 response time in milliseconds: 533
 1 &lt; 200
 1 &lt; access-control-allow-origin: *
 1 &lt; x-dns-prefetch-control: off
@@ -1137,8 +1137,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &lt; x-content-type-options: nosniff
 1 &lt; x-xss-protection: 1; mode=block
 1 &lt; content-type: application/json; charset=utf-8
-1 &lt; x-cloud-trace-context: 22daf4a83276874b9f7df6f0fe9f0395
-1 &lt; date: Mon, 09 Jun 2025 09:06:42 GMT
+1 &lt; x-cloud-trace-context: ba3ad2e759928020b9a02703817c5f3b
+1 &lt; date: Mon, 09 Jun 2025 13:40:40 GMT
 1 &lt; server: Google Frontend
 1 &lt; Content-Length: 51
 {
@@ -1216,12 +1216,12 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
               <div class="scenario-keyword">
                 Scenario: <span>[1.2:19]</span>
-                <span class="scenario-name">Eliminar usuario existente</span>
+                <span class="scenario-name">Eliminar usuario</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>2142</span>
+              <span>ms:</span>&nbsp;<span>2952</span>
             </div>
           </div>
           <div class="step-row">
@@ -1244,7 +1244,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def resultado = call read(&#39;classpath:usuarios/POST_usuario.feature&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">1643</div>
+    <div class="time-cell passed">2411</div>
   </div>
 
    
@@ -1263,7 +1263,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <div class="step-indent"></div>
         <div class="step-cell passed">usuarios.POST_usuario</div>
       </div>
-      <div class="time-cell passed">1619</div>
+      <div class="time-cell passed">2379</div>
     </div>
     <div>
       <div><div>
@@ -1307,7 +1307,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def uuid = java.util.UUID.randomUUID().toString()</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">8</div>
   </div>
 
    
@@ -1335,7 +1335,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def emailUnico = &#39;fulano&#39; + uuid + &#39;@teste.com&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1363,7 +1363,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def usuarioValido =</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1403,7 +1403,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -1459,7 +1459,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">671</div>
+    <div class="time-cell passed">550</div>
   </div>
 
    
@@ -1468,7 +1468,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="2.4.0.call.0.20">04:06:43.669 request:
+  <div class="preformatted" data-parent="2.4.0.call.0.20">08:40:40.878 request:
 1 &gt; POST https://serverest.dev/usuarios
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 134
@@ -1476,9 +1476,9 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulano23eb61ed-72b5-4e91-9ab7-ab064dd3ed16@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
+{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulano4e6727d5-ed00-428e-9ef8-c390684b7f9b@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
 
-04:06:44.335 response time in milliseconds: 665
+08:40:41.426 response time in milliseconds: 547
 1 &lt; 201
 1 &lt; access-control-allow-origin: *
 1 &lt; x-dns-prefetch-control: off
@@ -1488,13 +1488,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &lt; x-content-type-options: nosniff
 1 &lt; x-xss-protection: 1; mode=block
 1 &lt; content-type: application/json; charset=utf-8
-1 &lt; x-cloud-trace-context: 63e82e0dbf928b09ac607aa4bd75983c
-1 &lt; date: Mon, 09 Jun 2025 09:06:43 GMT
+1 &lt; x-cloud-trace-context: b6de6773e61624e0a88055591422129c
+1 &lt; date: Mon, 09 Jun 2025 13:40:41 GMT
 1 &lt; server: Google Frontend
 1 &lt; Content-Length: 82
 {
     &quot;message&quot;: &quot;Cadastro realizado com sucesso&quot;,
-    &quot;_id&quot;: &quot;7FER4UBcwEdeWRJb&quot;
+    &quot;_id&quot;: &quot;9rTODpJ8RpBtoiHz&quot;
 }
 
 </div>   
@@ -1544,7 +1544,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>match response == { message: &#39;Cadastro realizado com sucesso&#39;, _id: &#39;#string&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -1607,7 +1607,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>request usuarioValido</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -1635,7 +1635,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">429</div>
+    <div class="time-cell passed">430</div>
   </div>
 
    
@@ -1644,7 +1644,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="2.4.0.call.0.27">04:06:44.341 request:
+  <div class="preformatted" data-parent="2.4.0.call.0.27">08:40:41.433 request:
 2 &gt; POST https://serverest.dev/usuarios
 2 &gt; Content-Type: application/json; charset=UTF-8
 2 &gt; Content-Length: 134
@@ -1652,9 +1652,9 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 2 &gt; Connection: Keep-Alive
 2 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
 2 &gt; Accept-Encoding: gzip,deflate
-{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulano23eb61ed-72b5-4e91-9ab7-ab064dd3ed16@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
+{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulano4e6727d5-ed00-428e-9ef8-c390684b7f9b@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
 
-04:06:44.767 response time in milliseconds: 425
+08:40:41.861 response time in milliseconds: 426
 2 &lt; 400
 2 &lt; access-control-allow-origin: *
 2 &lt; x-dns-prefetch-control: off
@@ -1664,8 +1664,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 2 &lt; x-content-type-options: nosniff
 2 &lt; x-xss-protection: 1; mode=block
 2 &lt; content-type: application/json; charset=utf-8
-2 &lt; x-cloud-trace-context: 3b59adff3c119585248a5f3d93af5d3e
-2 &lt; date: Mon, 09 Jun 2025 09:06:44 GMT
+2 &lt; x-cloud-trace-context: 3f1e042654313ac79813e6f4770fe053
+2 &lt; date: Mon, 09 Jun 2025 13:40:41 GMT
 2 &lt; server: Google Frontend
 2 &lt; Content-Length: 53
 {
@@ -1805,7 +1805,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def emailUnico = &#39;fulano&#39; + uuid + &#39;@teste.com&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -1922,7 +1922,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">508</div>
+    <div class="time-cell passed">1375</div>
   </div>
 
    
@@ -1931,7 +1931,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="2.4.0.call.0.35">04:06:44.786 request:
+  <div class="preformatted" data-parent="2.4.0.call.0.35">08:40:41.878 request:
 1 &gt; POST https://serverest.dev/usuarios
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 134
@@ -1939,9 +1939,9 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulanoead688c6-7ae7-45c3-b01d-c6dbc6202c69@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
+{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulano9af9d836-c1bc-47a4-88a8-06a27e26276c@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
 
-04:06:45.290 response time in milliseconds: 503
+08:40:43.251 response time in milliseconds: 1372
 1 &lt; 201
 1 &lt; access-control-allow-origin: *
 1 &lt; x-dns-prefetch-control: off
@@ -1951,13 +1951,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &lt; x-content-type-options: nosniff
 1 &lt; x-xss-protection: 1; mode=block
 1 &lt; content-type: application/json; charset=utf-8
-1 &lt; x-cloud-trace-context: b8e007ea222b24546b90b6f7644b4834
-1 &lt; date: Mon, 09 Jun 2025 09:06:44 GMT
+1 &lt; x-cloud-trace-context: 885a715cd84518d13114f9f70f3daf72
+1 &lt; date: Mon, 09 Jun 2025 13:40:43 GMT
 1 &lt; server: Google Frontend
 1 &lt; Content-Length: 82
 {
     &quot;message&quot;: &quot;Cadastro realizado com sucesso&quot;,
-    &quot;_id&quot;: &quot;VrlZTOU2U9nq6x70&quot;
+    &quot;_id&quot;: &quot;ovQToCz9YJCajWOq&quot;
 }
 
 </div>   
@@ -2035,7 +2035,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def userId = response._id</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -2063,7 +2063,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>eval karate.log(&#39;ID creado: &#39; + userId)</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -2072,7 +2072,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="2.4.0.call.0.39">04:06:45.296 ID creado: VrlZTOU2U9nq6x70 
+  <div class="preformatted" data-parent="2.4.0.call.0.39">08:40:43.254 ID creado: ovQToCz9YJCajWOq 
 </div>   
 
   
@@ -2153,7 +2153,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>url &#39;https://serverest.dev&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -2188,7 +2188,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def userId_Cart = &quot;0uxuPY0cbmQhpEz1&quot;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -2216,7 +2216,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;, &quot;test&quot;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -2244,7 +2244,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method DELETE</span>
       </div>
     </div>
-    <div class="time-cell passed">496</div>
+    <div class="time-cell passed">535</div>
   </div>
 
    
@@ -2253,7 +2253,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="2.12">04:06:45.299 request:
+  <div class="preformatted" data-parent="2.12">08:40:43.264 request:
 1 &gt; DELETE https://serverest.dev/usuarios/test
 1 &gt; Host: serverest.dev
 1 &gt; Connection: Keep-Alive
@@ -2261,7 +2261,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-04:06:45.794 response time in milliseconds: 493
+08:40:43.794 response time in milliseconds: 529
 1 &lt; 200
 1 &lt; access-control-allow-origin: *
 1 &lt; x-dns-prefetch-control: off
@@ -2271,8 +2271,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &lt; x-content-type-options: nosniff
 1 &lt; x-xss-protection: 1; mode=block
 1 &lt; content-type: application/json; charset=utf-8
-1 &lt; x-cloud-trace-context: 631ec6035aab71f21fd703b1452c7c62
-1 &lt; date: Mon, 09 Jun 2025 09:06:45 GMT
+1 &lt; x-cloud-trace-context: b69f17f02a3b0a07422f4f934cb3c960
+1 &lt; date: Mon, 09 Jun 2025 13:40:43 GMT
 1 &lt; server: Google Frontend
 1 &lt; Content-Length: 46
 {
@@ -2350,12 +2350,12 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
               <div class="scenario-keyword">
                 Scenario: <span>[2:21]</span>
-                <span class="scenario-name">Eliminar usuario existente</span>
+                <span class="scenario-name">Eliminar usuario no permitido</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>2900</span>
+              <span>ms:</span>&nbsp;<span>2203</span>
             </div>
           </div>
           <div class="step-row">
@@ -2378,7 +2378,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def resultado = call read(&#39;classpath:usuarios/POST_usuario.feature&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">2390</div>
+    <div class="time-cell passed">1661</div>
   </div>
 
    
@@ -2397,7 +2397,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <div class="step-indent"></div>
         <div class="step-cell passed">usuarios.POST_usuario</div>
       </div>
-      <div class="time-cell passed">2371</div>
+      <div class="time-cell passed">1640</div>
     </div>
     <div>
       <div><div>
@@ -2593,7 +2593,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">1330</div>
+    <div class="time-cell passed">549</div>
   </div>
 
    
@@ -2602,7 +2602,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4.0.call.0.20">04:06:45.821 request:
+  <div class="preformatted" data-parent="0.4.0.call.0.20">08:40:43.823 request:
 1 &gt; POST https://serverest.dev/usuarios
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 134
@@ -2610,9 +2610,9 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulanod5b77abd-a86c-4b14-a696-f8c53fedf641@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
+{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulanodb6dbcbb-4cf3-438b-ba05-76f68ce3b137@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
 
-04:06:47.149 response time in milliseconds: 1328
+08:40:44.369 response time in milliseconds: 545
 1 &lt; 201
 1 &lt; access-control-allow-origin: *
 1 &lt; x-dns-prefetch-control: off
@@ -2622,13 +2622,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &lt; x-content-type-options: nosniff
 1 &lt; x-xss-protection: 1; mode=block
 1 &lt; content-type: application/json; charset=utf-8
-1 &lt; x-cloud-trace-context: d5446e52f0d26abccf188765ecc31681
-1 &lt; date: Mon, 09 Jun 2025 09:06:46 GMT
+1 &lt; x-cloud-trace-context: 228944ad0fd11d90352b2a5d8dfb2a93
+1 &lt; date: Mon, 09 Jun 2025 13:40:44 GMT
 1 &lt; server: Google Frontend
 1 &lt; Content-Length: 82
 {
     &quot;message&quot;: &quot;Cadastro realizado com sucesso&quot;,
-    &quot;_id&quot;: &quot;wxYrRCt5fjT0f6T2&quot;
+    &quot;_id&quot;: &quot;vXGPMEDYiEKRW0A4&quot;
 }
 
 </div>   
@@ -2769,7 +2769,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">503</div>
+    <div class="time-cell passed">528</div>
   </div>
 
    
@@ -2778,7 +2778,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4.0.call.0.27">04:06:47.152 request:
+  <div class="preformatted" data-parent="0.4.0.call.0.27">08:40:44.375 request:
 2 &gt; POST https://serverest.dev/usuarios
 2 &gt; Content-Type: application/json; charset=UTF-8
 2 &gt; Content-Length: 134
@@ -2786,9 +2786,9 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 2 &gt; Connection: Keep-Alive
 2 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
 2 &gt; Accept-Encoding: gzip,deflate
-{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulanod5b77abd-a86c-4b14-a696-f8c53fedf641@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
+{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulanodb6dbcbb-4cf3-438b-ba05-76f68ce3b137@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
 
-04:06:47.654 response time in milliseconds: 498
+08:40:44.898 response time in milliseconds: 522
 2 &lt; 400
 2 &lt; access-control-allow-origin: *
 2 &lt; x-dns-prefetch-control: off
@@ -2798,8 +2798,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 2 &lt; x-content-type-options: nosniff
 2 &lt; x-xss-protection: 1; mode=block
 2 &lt; content-type: application/json; charset=utf-8
-2 &lt; x-cloud-trace-context: dd86db6361b4cd0bcaec215999f86439
-2 &lt; date: Mon, 09 Jun 2025 09:06:46 GMT
+2 &lt; x-cloud-trace-context: 24050e9b2cae6248fa4391eec1963ede
+2 &lt; date: Mon, 09 Jun 2025 13:40:44 GMT
 2 &lt; server: Google Frontend
 2 &lt; Content-Length: 53
 {
@@ -2853,7 +2853,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>match response == { message: &#39;Este email já está sendo usado&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -2911,7 +2911,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def uuid = java.util.UUID.randomUUID().toString()</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -3056,7 +3056,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">529</div>
+    <div class="time-cell passed">550</div>
   </div>
 
    
@@ -3065,7 +3065,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4.0.call.0.35">04:06:47.663 request:
+  <div class="preformatted" data-parent="0.4.0.call.0.35">08:40:44.915 request:
 1 &gt; POST https://serverest.dev/usuarios
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 134
@@ -3073,9 +3073,9 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulanod054d8b4-ad59-4a68-9687-db17274682d4@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
+{&quot;nome&quot;:&quot;Fulano da Silva&quot;,&quot;email&quot;:&quot;fulano3eda9680-c134-488a-a5bc-f3218b55c1eb@teste.com&quot;,&quot;password&quot;:&quot;teste123&quot;,&quot;administrador&quot;:&quot;true&quot;}
 
-04:06:48.190 response time in milliseconds: 526
+08:40:45.462 response time in milliseconds: 546
 1 &lt; 201
 1 &lt; access-control-allow-origin: *
 1 &lt; x-dns-prefetch-control: off
@@ -3085,13 +3085,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &lt; x-content-type-options: nosniff
 1 &lt; x-xss-protection: 1; mode=block
 1 &lt; content-type: application/json; charset=utf-8
-1 &lt; x-cloud-trace-context: f9207eeb3a1d35c09d0ce9d7e5c262c0
-1 &lt; date: Mon, 09 Jun 2025 09:06:47 GMT
+1 &lt; x-cloud-trace-context: 3fdd3c9db5394ad00d3694ada0820f4f
+1 &lt; date: Mon, 09 Jun 2025 13:40:45 GMT
 1 &lt; server: Google Frontend
 1 &lt; Content-Length: 82
 {
     &quot;message&quot;: &quot;Cadastro realizado com sucesso&quot;,
-    &quot;_id&quot;: &quot;p7aNQUxxXoFYwaIH&quot;
+    &quot;_id&quot;: &quot;RLbFzk1NZmy0AFrL&quot;
 }
 
 </div>   
@@ -3206,7 +3206,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4.0.call.0.39">04:06:48.194 ID creado: p7aNQUxxXoFYwaIH 
+  <div class="preformatted" data-parent="0.4.0.call.0.39">08:40:45.466 ID creado: RLbFzk1NZmy0AFrL 
 </div>   
 
   
@@ -3259,7 +3259,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def userId = resultado.userId</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -3378,7 +3378,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method DELETE</span>
       </div>
     </div>
-    <div class="time-cell passed">508</div>
+    <div class="time-cell passed">538</div>
   </div>
 
    
@@ -3387,7 +3387,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.23">04:06:48.198 request:
+  <div class="preformatted" data-parent="0.23">08:40:45.473 request:
 1 &gt; DELETE https://serverest.dev/usuarios/0uxuPY0cbmQhpEz1
 1 &gt; Host: serverest.dev
 1 &gt; Connection: Keep-Alive
@@ -3395,7 +3395,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-04:06:48.704 response time in milliseconds: 506
+08:40:46.008 response time in milliseconds: 534
 1 &lt; 400
 1 &lt; access-control-allow-origin: *
 1 &lt; x-dns-prefetch-control: off
@@ -3405,8 +3405,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &lt; x-content-type-options: nosniff
 1 &lt; x-xss-protection: 1; mode=block
 1 &lt; content-type: application/json; charset=utf-8
-1 &lt; x-cloud-trace-context: 982d25233878d07cec8a535633da5bf1
-1 &lt; date: Mon, 09 Jun 2025 09:06:48 GMT
+1 &lt; x-cloud-trace-context: 5ebd9b1fdb2e7b53c66317b571ca1fc8
+1 &lt; date: Mon, 09 Jun 2025 13:40:46 GMT
 1 &lt; server: Google Frontend
 1 &lt; Content-Length: 117
 {
@@ -3461,7 +3461,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>match response == { message: &#39;Não é permitido excluir usuário com carrinho cadastrado&#39;, idCarrinho: &#39;#string&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    

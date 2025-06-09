@@ -18,7 +18,7 @@ Feature: Buscar usuario por ID
       email: '#string',
       password: '#string',
       administrador: '#string',
-      _id: '#string'
+      _id: '#bool'
     }
     """
     And match response._id == userId
