@@ -7,7 +7,7 @@ Feature: Eliminar usuario
     #Este usuario puede variar en este caso es el usuario con el que figura el mensaje
     * def userId_Cart = "0uxuPY0cbmQhpEz1"
 
-  Scenario Outline: Eliminar usuario existente
+  Scenario Outline: Eliminar usuario 
     Given path '/usuarios', <user>
     When method DELETE
     Then status 200
@@ -18,7 +18,7 @@ Feature: Eliminar usuario
         | userId | Registro excluído com sucesso |
         | "test" | Nenhum registro excluído      |
 
-  Scenario: Eliminar usuario existente
+  Scenario: Eliminar usuario no permitido
     Given path '/usuarios', userId_Cart
     When method DELETE
     Then status 400

@@ -69,9 +69,7 @@
 - mvn clean install
 
 # Ejecución
-- Ejecutar todos los tests:
-- mvn test
-- Ejecutar por grupos desde clase 
+- Ejecutar todos los tests: mvn test
 
 # Validaciones implementadas
 - Validación de esquemas JSON con #string , #regex , #number , etc.
